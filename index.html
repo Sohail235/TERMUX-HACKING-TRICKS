@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacking Tricks with Termux</title>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-y: auto;
+        }
         body {
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
-            overflow: hidden;
         }
         .banner {
             background-color: white;
@@ -60,7 +65,7 @@
     </style>
 </head>
 <body>
-    <div class="banner">𝐀𝐔𝐓𝐇𝐎𝐑 : 𝐒𝐎𝐇𝐀𝐈𝐋 𝐊𝐇𝐀𝐍</div>
+    <div class="banner">AUTHOR : ZOHAIB ALI </div>
     <div class="falling-petals">
         <div class="petal" style="left: 10%; animation-delay: 0s;"></div>
         <div class="petal" style="left: 20%; animation-delay: 1s;"></div>
@@ -120,14 +125,5 @@
     
     <div class="trick-box">Trick 41: Infinite Loop of a Fun Message <br><code>while true; do echo "This is a harmless prank!"; done</code></div>
     <div class="trick-box">Trick 42: Random ASCII Faces <br><code>echo "(づ｡◕‿‿◕｡)づ"; sleep 1; done</code></div>
-    <div class="trick-box">Trick 43: Simulate Hard Disk Space Full <br><code>dd if=/dev/zero of=/root/full bs=1M count=100</code></div>
-    <div class="trick-box">Trick 44: Random Wi-Fi Networks Message <br><code>echo "Connecting to Wi-Fi..."</code></div>
-    <div class="trick-box">Trick 45: Display Fake IP Info <br><code>echo "Your IP is 192.168.0.1";</code></div>
-    <div class="trick-box">Trick 46: Create Random Folder Names <br><code>mkdir $(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)</code></div>
-    <div class="trick-box">Trick 47: Terminal Cloning <br><code>clear && bash</code></div>
-    <div class="trick-box">Trick 48: Joke "Network Hacked" Message <br><code>echo "Network Hack Successful!"</code></div>
-    <div class="trick-box">Trick 49: Display Fake System Warning <br><code>echo "Warning! Your system is compromised!"</code></div>
-    <div class="trick-box">Trick 50: Password Prompt with Random Response <br><code>read -s -p "Enter Password: " pass && echo -e "Your password is: $pass"</code></div>
-</body>
-        </html>
-    
+    <div class="trick-box">Trick 43: Simulate Hard Disk Space Full <br><code
+                                                                           
